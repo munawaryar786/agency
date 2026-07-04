@@ -35,20 +35,21 @@ export function Header() {
         </div>
       </div>
       <div className={cn("border-b border-gold/15 bg-ivory/95 backdrop-blur transition", scrolled && "shadow-premium")}>
-        <div className="mx-auto flex max-w-[92rem] items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-          <Link href="/" className="flex min-w-0 shrink-0 items-center gap-3">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:gap-4 lg:px-8">
+          <Link href="/" className="flex flex-shrink-0 items-center gap-3">
             <img src="/assets/brand/asian-ravi-logo.jpeg" alt="Asian Ravi Tour Services logo" className="h-12 w-12 rounded-md object-cover" />
             <span className="min-w-0">
               <span className="block truncate font-display text-xl font-black leading-5 text-ink">Asian Ravi</span>
               <span className="block whitespace-nowrap text-xs font-bold uppercase text-gold">Tour Services</span>
             </span>
           </Link>
-          <nav className="hidden min-w-0 items-center gap-0.5 lg:flex" aria-label="Main navigation">
+
+          <nav className="hidden min-w-0 flex-1 items-center justify-center gap-0.5 lg:flex xl:gap-1" aria-label="Main navigation">
             {navItems.map((item) => (
-              <div key={item.label} className="group relative flex items-center">
+              <div key={item.label} className="group relative flex flex-shrink-0 items-center">
                 <Link
                   href={item.href}
-                  className="focus-ring inline-flex h-10 items-center gap-1.5 whitespace-nowrap rounded-md px-2.5 text-[13px] font-extrabold text-ink transition hover:bg-gold/15 xl:px-3 xl:text-sm"
+                  className="focus-ring inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-md px-2 text-[12px] font-extrabold text-ink transition hover:bg-gold/15 xl:px-2.5 xl:text-[13px] 2xl:px-3"
                   aria-haspopup={item.children ? "menu" : undefined}
                 >
                   <span className="whitespace-nowrap">{item.label}</span>
@@ -70,14 +71,16 @@ export function Header() {
               </div>
             ))}
           </nav>
-          <div className="hidden shrink-0 items-center gap-2 xl:flex">
-            <Button href="/umrah-packages" variant="outline" className="h-10 min-h-10 whitespace-nowrap px-3.5 py-2 text-xs xl:px-4">View Packages</Button>
-            <Button href="/contact" className="h-10 min-h-10 whitespace-nowrap px-3.5 py-2 text-xs xl:px-4">Book Now</Button>
-            <Button href={whatsappUrl("I want travel consultation from Asian Ravi")} variant="dark" className="h-10 min-h-10 whitespace-nowrap px-3.5 py-2 text-xs xl:px-4">
+
+          <div className="hidden flex-shrink-0 items-center gap-2 xl:flex 2xl:gap-3">
+            <Button href="/umrah-packages" variant="outline" className="hidden h-10 min-h-10 whitespace-nowrap px-4 py-2 text-xs 2xl:inline-flex">View Packages</Button>
+            <Button href="/contact" className="h-10 min-h-10 whitespace-nowrap px-4 py-2 text-xs">Book Now</Button>
+            <Button href={whatsappUrl("I want travel consultation from Asian Ravi")} variant="dark" className="h-10 min-h-10 whitespace-nowrap px-4 py-2 text-xs">
               <MessageCircle className="mr-2 h-4 w-4" />WhatsApp
             </Button>
           </div>
-          <button className="focus-ring rounded-md p-2 lg:hidden" aria-label="Open menu" onClick={() => setOpen(true)}>
+
+          <button className="focus-ring flex-shrink-0 rounded-md p-2 lg:hidden" aria-label="Open menu" onClick={() => setOpen(true)}>
             <Menu className="h-7 w-7" />
           </button>
         </div>
