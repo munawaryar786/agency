@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import { Send } from "lucide-react";
@@ -7,9 +7,8 @@ import { Button } from "@/components/ui/Button";
 const fields = [
   ["name", "Full Name"],
   ["phone", "Phone Number"],
-  ["service", "Interested Package / Tour"],
-  ["city", "Departure City"],
-  ["month", "Travel Month"],
+  ["service", "Interested Service"],
+  ["month", "Departure Month"],
   ["travelers", "Number of Travelers"]
 ];
 
@@ -38,7 +37,7 @@ export function InquiryForm({ compact = false }: { compact?: boolean }) {
         ))}
         <label className={compact ? "text-sm font-bold text-ink" : "text-sm font-bold text-ink md:col-span-2"}>
           Message
-          <textarea name="message" rows={4} className="focus-ring mt-2 w-full rounded-md border border-ink/10 bg-ivory px-4 py-3 text-sm" placeholder="Tell us your preferred package, city, hotel distance or tour dates." />
+          <textarea name="message" rows={4} className="focus-ring mt-2 w-full rounded-md border border-ink/10 bg-ivory px-4 py-3 text-sm" placeholder="Tell us your travel dates, hotel preference, or questions." />
         </label>
       </div>
       {sent ? <p className="mt-4 rounded-md bg-gold/15 px-4 py-3 text-sm font-bold text-ink">Thank you. Your inquiry is ready for follow-up. Please call or WhatsApp for fastest confirmation.</p> : null}

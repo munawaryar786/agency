@@ -1,10 +1,10 @@
-﻿export const faqs = [
-  ["How do I choose the right Umrah package?", "Start with departure city, travel dates, duration, hotel distance and room sharing. Deedar E Makkah can compare Lahore, Multan, Sialkot, group and seasonal options with you."],
-  ["Are package prices final?", "Prices must be confirmed before booking because airline fares, hotel availability, exchange rates and seasonal demand can change."],
-  ["What is included in Umrah packages?", "Common inclusions can include visa, air ticket, hotels, Saudi transport, shuttle service, Ziyarat support and travel guidance depending on the selected package."],
-  ["What room types are available?", "Most packages show sharing, quad, triple and double prices so families and groups can choose the comfort level that fits their budget."],
-  ["Do you offer group Umrah from Sialkot?", "Yes, the seed data includes a 21 day Sialkot group Umrah with Emirates Airlines and structured flight schedule details."],
-  ["Do you arrange Baku and Uzbekistan tours?", "Yes. Baku 5D/4N and Uzbekistan 8D/7N tour data is included with key inclusions and destination highlights."],
-  ["Do you guarantee visa approval?", "No. Visa outcomes depend on authorities and correct documentation. The website provides guidance without guaranteed approval claims."],
-  ["Where is the office located?", "Office # 201-202, 2nd Floor, Ibrahim Trade Center, Garden Town, Lahore, Pakistan." ]
+export const faqs = [
+  ["How do I book an Umrah package?", "Share your travel month, number of travelers, preferred hotel distance and room type. The team will explain available options and final rates before booking."],
+  ["Which documents are required?", "Usually passport, photos, vaccination or travel requirements where applicable, and other details requested for visa processing. Requirements can change, so confirm before submission."],
+  ["What is quint, quad, triple and double sharing?", "These room types describe how many travelers share one room. Quint is five, quad is four, triple is three, and double is two people."],
+  ["Does hotel distance affect price?", "Yes. Near Haram and Markazia hotels usually cost more. Shuttle service hotels may reduce cost but require transport planning."],
+  ["Do you arrange private transport?", "Private transport can be arranged depending on route, family size and availability. Confirm rates before booking."],
+  ["Are group packages fixed?", "Group packages normally follow selected dates, airlines and hotel categories. Seats and prices can change quickly."],
+  ["Do you guarantee visa approval?", "No. The website avoids guaranteed approval claims. Visa outcomes and requirements depend on relevant authorities and documentation."],
+  ["Can I start Hajj 2027 preparation now?", "Yes, you can prepare documents and understand the process early. Final package details depend on official announcements."]
 ].map(([question, answer]) => ({ question, answer }));

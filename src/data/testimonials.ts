@@ -1,32 +1,32 @@
-﻿export const testimonials = [
+export const testimonials = [
   {
-    name: "Muhammad Hamza",
+    name: "Muhammad Usman",
     city: "Lahore",
     service: "Umrah Package",
-    text: "The package details were explained clearly, including hotel distance, transport and room sharing. The team guided our family with patience before booking."
+    text: "Our Umrah journey was managed very smoothly. The team guided us about hotels, transport and documents before departure, which made the whole process easier for our family."
   },
   {
-    name: "Ayesha Mahmood",
-    city: "Multan",
-    service: "Seasonal Umrah",
-    text: "We compared multiple options and selected a package that matched our budget. Communication was quick and the pricing table made the decision easier."
-  },
-  {
-    name: "Bilal Ahmed",
-    city: "Sialkot",
+    name: "Hafiz Abdullah",
+    city: "Gujranwala",
     service: "Group Umrah",
-    text: "The Emirates group schedule was shared in a professional way. Hotel, transport and baggage guidance were all handled smoothly."
+    text: "The package details were explained clearly, and the team stayed connected during the journey. Hotel and transport support was very helpful."
   },
   {
-    name: "Sana Khan",
+    name: "Ayesha Khan",
     city: "Lahore",
-    service: "Baku Tour",
-    text: "The international tour consultation felt organized and premium. We received clear details about visa, hotel, transport and inclusions."
+    service: "Family Umrah",
+    text: "We travelled with family and needed guidance at every step. Asian Ravi's team helped with package selection, documentation and travel preparation."
+  },
+  {
+    name: "Salman Ahmed",
+    city: "Sialkot",
+    service: "Ticketing & Travel",
+    text: "The team helped us with ticket planning and travel support. Communication was quick and professional."
   },
   {
     name: "Abdul Rehman",
-    city: "Faisalabad",
-    service: "Visa & Ticketing",
-    text: "The team explained ticketing and visa documents without making unrealistic promises. That transparency built trust."
+    city: "Islamabad",
+    service: "Hajj / Umrah Guidance",
+    text: "The consultation was clear and respectful. They explained the process, documents and package options in a simple way."
   }
 ];

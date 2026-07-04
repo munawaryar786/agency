@@ -1,5 +1,5 @@
 {
-  "name": "deedar-e-makkah-travel-tours",
+  "name": "asian-ravi-tour-services",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -21,7 +21,7 @@
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "autoprefixer": "^10.4.22",
+    "autoprefixer": "^10.5.2",
     "eslint": "^9.17.0",
     "eslint-config-next": "^15.1.3",
     "postcss": "^8.4.49",

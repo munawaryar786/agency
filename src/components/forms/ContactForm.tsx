@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
@@ -25,7 +25,7 @@ export function ContactForm() {
           <textarea rows={5} className="focus-ring mt-2 w-full rounded-md border border-ink/10 bg-ivory px-4 py-3" />
         </label>
       </div>
-      {sent ? <p className="mt-4 rounded-md bg-gold/15 px-4 py-3 text-sm font-bold">Message received on this frontend demo. Please use WhatsApp or UAN for live booking confirmation.</p> : null}
+      {sent ? <p className="mt-4 rounded-md bg-gold/15 px-4 py-3 text-sm font-bold">Message received on this frontend demo. Please use WhatsApp or phone for live booking confirmation.</p> : null}
       <Button type="submit" className="mt-5">Send Message</Button>
     </form>
   );

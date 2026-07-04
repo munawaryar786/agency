@@ -1,34 +1,29 @@
-﻿export const site = {
-  companyName: "Deedar E Makkah Travel & Tours Pvt Ltd",
-  displayName: "Deedar E Makkah Travel & Tours",
-  brandFamily: "Deedar E Makkah",
-  licenseNo: "LHR9500",
-  website: "deedaremakkahtravel.com",
-  tagline: "Trusted Travel Support for Umrah, Tours & Tickets",
-  promise: "Your Trusted Partner for Sacred and International Journeys",
-  address: "Office # 201-202, 2nd Floor, Ibrahim Trade Center, Garden Town, Lahore, Pakistan",
-  city: "Garden Town Lahore",
-  uan: "0304-1111-289",
-  primaryMobile: "0334-1642303",
-  phones: ["0304-1111-289", "0334-1642303", "+92 304 1111289", "+92 334 1642303", "0326-8485731", "0326-8485732", "0307-1642303", "061-2114617"],
-  whatsapp: "03041111289",
-  email: "info@deedaremakkahtravel.com",
-  legacyEmail: "deedaremakkahtravels@yahoo.com",
-  officeHours: "Office hours placeholder - confirm before publishing",
-  presence: ["Lahore", "Multan", "Sialkot", "Saudi Arabia Support"],
-  topBar: ["UAN 0304-1111-289", "0334-1642303", "Garden Town Lahore", "24/7 Support"],
+export const site = {
+  companyName: "Asian Ravi Tour Services (Pvt) Ltd",
+  displayName: "Asian Ravi Tour Services",
+  brandFamily: "Asian Group",
+  tagline: "Hajj - Umrah - Tickets",
+  since: "2011",
+  address:
+    "MZ-1 / 1st Floor, Al Hafeez Shopping Mall, Opp. PACE, Main Boulevard, Gulberg III, Lahore, Pakistan",
+  phones: ["042-35779563", "042-35779564", "0314-5317524", "0342-5251574", "0329-4488111"],
+  whatsapp: "0314-5317524",
+  email: "asianravilhe@gmail.com",
+  legacyEmail: "asiantourservicesLhe@yahoo.com",
+  presence: ["Lahore", "Islamabad", "Karachi", "KSA"],
+  topBar: ["Trusted Hajj - Umrah - Tickets", "Since 2011", "Lahore Based", "24/7 Assistance"],
   social: {
     facebook: "#",
     instagram: "#",
     tiktok: "#",
-    whatsapp: "https://wa.me/923041111289"
+    whatsapp: "https://wa.me/923145317524"
   },
   trustBadges: [
-    "License No LHR9500",
-    "Umrah & Tours",
-    "Garden Town Lahore Office",
-    "UAN Support",
-    "Family & Group Travel",
-    "Visa, Ticketing & Hotels"
+    "Trusted Since 2011",
+    "Hajj & Umrah Services",
+    "Lahore Based Office",
+    "Package Transparency",
+    "Family & Group Support",
+    "Phone / WhatsApp Support"
   ]
 };

@@ -1,13 +1,17 @@
-﻿export const services = [
-  ["Umrah Packages", "Structured Lahore, Multan and Sialkot Umrah options with clear room sharing and hotel distance guidance."],
-  ["Group Umrah", "Group departures with airline schedules, Saudi transport and coordinated traveler support."],
-  ["Seasonal Umrah", "Seasonal 21 and 28 day offers converted into clean pricing tables and inquiry-ready cards."],
-  ["Air Ticketing", "International and domestic air ticket planning with route, baggage and timing guidance."],
-  ["Visa Support", "Document-led visa support for Umrah, tours and selected international travel needs."],
-  ["Hotel Booking", "Hotel selection support in Makkah, Madinah and international destinations."],
-  ["Transport", "Saudi transport support, airport transfers and family/group movement planning."],
-  ["Ziyarat Support", "Makkah and Madinah Ziyarat guidance with respectful planning."],
-  ["Baku Tour", "Azerbaijan tour planning with visa, hotel, breakfast, transport and sightseeing."],
-  ["Uzbekistan Tour", "Group tour support for Tashkent, Samarkand and Bukhara."],
-  ["Travel Consultation", "Clear consultation before booking so clients understand dates, prices and inclusions."]
+export const services = [
+  ["Hajj Packages", "Guidance, package planning and respectful consultation for Hajj journeys."],
+  ["Umrah Packages", "Custom, group, family and shuttle Umrah options with hotel guidance."],
+  ["Group Umrah Packages", "Organized group departures with shared planning and support."],
+  ["Shuttle Umrah Packages", "Value focused packages using shuttle service hotel options."],
+  ["International Tickets", "Flight planning and ticketing support for international routes."],
+  ["Domestic Tickets", "Domestic ticket support for Pakistan routes and onward planning."],
+  ["Visit Visa Assistance", "Document guidance and visit visa support for selected destinations."],
+  ["Hotel Booking", "Hotel options in Makkah, Madinah and leisure destinations."],
+  ["Private Transport", "Airport transfer, city transfer and private family transport options."],
+  ["Ziarat Arrangements", "Makkah and Madinah Ziarat planning with suitable transport options."],
+  ["Family Travel Support", "Room planning, child guidance and practical travel preparation."],
+  ["Corporate / Group Travel", "Travel coordination for teams, delegations and private groups."],
+  ["Leisure Tours", "Premium leisure planning for families and small groups."],
+  ["Working Tours", "Travel service support for work-related journeys and documentation."],
+  ["Travel Consultation", "Clear advice before booking so clients understand options and costs."]
 ].map(([title, description]) => ({ title, description }));
